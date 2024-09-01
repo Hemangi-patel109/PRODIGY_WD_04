@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hemangi Patel Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+            <a href="#"><span>Portfolio</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class="fa-solid fa-bars"></i>            
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="assets/CV.pdf" download="">Download CV</a></li>
+        </ul>
+        <div class="nav__btn">
+            <a href="#" download="">Download CV</a>
+        </div>
+    </nav>
+
+    <header class="section__container header__container" id="about">
+        <div class="header__image">
+            <img src="pic.jpg" alt="header" />
+        </div>
+        <div class="header__content">
+            <h1>Hello,<br> I'm <span>Hemangi</span></h1>
+            <p class="section__description">Welcome to my personal portfolio! With a passion for turning ideas into reality, I specialize in Developing user-friendly designs.<br>Currently, I am studing Computer Engineering in Ldrp-Itr Gandhinager. </p>
+            <div class="header__btns">
+            <button class="btn">Contact Me</button>
+            <a href="#">View Portfolio<span><i class="fa-solid fa-arrow-left"></i></span></a>
+            </div>
+        </div>
+    </header>
+
+    <br><br><br><br><br>
+
+    <section class="section__container skill__container" id="skill">
+        <div class="skill__content">
+            <h2 class="section__header">About my <span>Skills</span></h2>
+            <p class="section__description">Quality and passion for my every new project ensure that it will succeed.</p>
+            <div class="skill__btn">
+                <button class="btn">Hire Me</button>
+            </div>
+        </div>
+        <div class="skill__grid">
+            <div class="skill__card">
+            <span><i class="fa-solid fa-code"></i></span>
+            <h4>Web Development</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit modi veritatis hic, non expedita veniam voluptas porro quisquam asperiores ut.
+            </p>
+            </div>
+            <div class="skill__card">
+            <span><i class="fa-brands fa-java"></i></span>
+            <h4>Java</h4>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi consequatur labore quo quasi consectetur nostrum dolor iste deleniti excepturi modi, aliquid architecto.
+            </p>
+            </div>
+            <div class="skill__card">
+            <span><i class="fa-brands fa-python"></i></span>
+            <h4>Python</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium et nihil vitae exercitationem dolorum incidunt, ratione accusamus praesentium, repudiandae, nisi praesentium!
+            </p>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br><br><br>
+
+    <section class="portfolio__container" id="portfolio">
+        <div class="portfolio__content">
+            <h2 class="section__header">My Latest <span>Projects</span></h2>
+            <p class="section__description">From sleek web applications to dynamic user interfaces, these works highlight my ability to bring unique ideas to life.</p>
+        </div>
+        <br><br>
+        <div class="portfolio__image__wrapper">
+            <div class="portfolio__image">
+            <img src="p1.png" alt="portfolio" />
+            <img src="p2.png" alt="portfolio" />
+            <img src="p3.png" alt="portfolio" />
+            <img src="p4.png" alt="portfolio" />
+            <img src="p5.png" alt="portfolio" />
+            <img src="p6.png" alt="portfolio" />
+            <img src="p7.png" alt="portfolio" />
+            </div>
+            <br>
+            <div class="portfolio__btn">
+                <button class="btn">Show More</button>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br><br><br>
+
+    <section class="section__container contact__container" id="contact">
+        <h2 class="section__header">For more <span>Project</span></h2><br>
+        <p class="section__description">
+            Whether you need a new website, or some other project, let's collaborate to create something amazing.
+        </p>
+        <br>
+        <form action="/">
+            <input type="text" placeholder="Full name" />
+            <input type="text" placeholder="Your email" />
+            <input type="text" placeholder="Phone number" />
+            <input type="text" placeholder="Budget" />
+            <textarea placeholder="Message"></textarea>
+            <br>
+            <button class="btn">Submit Message</button>
+        </form>
+    </section>
+
+    <footer class="section__container footer__container">
+        <p>Hemangi Patel</p>
+        <ul class="footer__socials">
+            <li>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </li>
+            <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
